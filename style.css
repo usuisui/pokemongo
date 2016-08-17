@@ -20,7 +20,7 @@ body {
 /********/
 
 .main {
-	background: url("img/bg.jpg") no-repeat center center;
+	background: url("bg.jpg") no-repeat center center;
 	background-size: cover;
 	height: 100%;
 }

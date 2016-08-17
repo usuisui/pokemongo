@@ -1,0 +1,124 @@
+/********************/
+/* POKEMON GO STYLE */
+/*        CSS       */
+/********************/
+
+/********/
+/* HTML */
+/********/
+
+html, 
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+
+/********/
+/* MAIN */
+/********/
+
+.main {
+	background: url("img/bg.jpg") no-repeat center center;
+	background-size: cover;
+	height: 100%;
+}
+
+
+/********/
+/* LOGO */
+/********/
+
+.page-logo {
+	float: left;
+}
+
+.text-logo {
+	margin: 7% 7% 0;
+}
+
+.pika-logo {
+	margin: -7% 16% 0;
+	height: 25%;
+	width: 25%;
+}
+
+
+/***************/
+/* TEXT HEADER */
+/***************/
+
+.text-header {
+	background: rgba(30, 57, 110, 0.7);
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+	
+}
+
+.text-header h1 {
+	letter-spacing: 0.05em;
+	font-family: Arial;
+	font-weight: 100;
+	font-size: 3.5rem;
+	color: #fff;
+	margin: 0;
+}
+
+.list {
+	display: inline-block;
+	font-family: Arial;
+	font-size: 1.05rem;
+	margin-bottom: 6%;
+	text-align: left;
+	line-height: 1.9;
+	color: #fff;
+}
+
+
+/*********/
+/* BADGE */
+/*********/
+
+.badge-img {
+	position: relative;
+	margin: 0 10px 0;
+	float: right;
+	height: 15%;
+	width: 15%;
+	top: 300px;
+}
+
+.badge-text {
+	font-family: Arial;
+	position: relative;
+	text-align: center;
+	right: -175px;
+	float: right;
+	top: 330px;
+}
+
+.badge-text h1 {
+	margin: 30px 0 -20px;
+	font-size: 3rem;
+}
+
+
+/**********/
+/* BUTTON */
+/**********/
+
+.dl-btn {
+	background: #ffd624;
+	padding: 10px 60px;
+	margin: 0 0 10px;
+	border-radius: 5px;
+	border: #ffd624;
+	font-size: 2rem;
+	height: 60px;
+	color: #000;
+	position: absolute;
+	bottom: 0;
+}

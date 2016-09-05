@@ -20,7 +20,7 @@ body {
 /********/
 
 .main {
-	background: url("img/bg.jpg") no-repeat center center fixed;
+	background: url("bg.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -165,8 +165,8 @@ body {
 
 @media (min-width: 675px) and (max-width: 768px) {
 	.logo {
-		height: 25%;
-		width: 25%;
+		height: 35%;
+		width: 35%;
 	}
 
 	.text-header h1 {
@@ -194,8 +194,8 @@ body {
 
 @media (min-width: 500px) and (max-width: 675px) {
 	.logo {
-		height: 25%;
-		width: 25%;
+		height: 30%;
+		width: 30%;
 	}
 
 	.text-header h1 {
@@ -218,6 +218,7 @@ body {
 		width: 17%;
 		height: 17%;
 		top: 220px;
+		display: none;
 	}
 }
 
